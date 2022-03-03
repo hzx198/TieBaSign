@@ -1,20 +1,13 @@
-# 贴吧签到 Github Action
-
-## 今日签到状态
-
-![auto-sign](https://github.com/gwtak/TieBaSign/workflows/Baidu%20Tieba%20Auto%20Sign/badge.svg)
+# TiebaSign
 
 ## 使用说明
 
-1. Fork 本仓库，然后点击你的仓库右上角的 Settings，找到 Secrets 这一项，添加一个库秘密变量。其中 `BDUSS` 存放你的 BDUSS。支持同时添加多个帐户，BDUSS 之间用 `#` 隔开即可
+1. Fork 本仓库，然后点击仓库右上角的 'Settings'，找到 'Secrets' 这一项，添加一个库秘密变量。
+其中 `BDUSS` 存放你的 BDUSS。支持同时添加多个帐户，BDUSS 之间用 `#` 隔开即可。
 
-![new-secret](/img/new_repository_secret.png)
-![add-bduss](/img/add_BDUSS.png)
+2. 点击仓库上方的 'Actions' 选项，第一次打开需要点击 `I understand ...` 按钮，确认启用 GitHub Actions。
 
-2. 设置好环境变量后点击你的仓库上方的 `Actions` 选项，第一次打开需要点击 `I understand...` 按钮，确认在 Fork 的仓库上启用 GitHub Actions
+3. 任意 commit 一次，例如修改本 README.md 文件。
 
-3. 任意发起一次 commit，可以参考修改 readme 文件
-
-4. 至此自动签到就搭建完毕了，可以再次点击 `Actions` 查看工作记录，如果有 `Baidu Tieba Auto Sign` 则说明 workflow 创建成功了。点击右侧记录可以查看详细签到情况
-
-![check](/img/check.png)
+4. 搭建完毕，可以点击 'Actions' 查看工作记录，如果有 `Baidu Tieba Auto Sign` 则说明 workflow 创建成功。
+点击右侧记录可以查看详细签到情况。
